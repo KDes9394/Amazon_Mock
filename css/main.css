@@ -1,4 +1,114 @@
-body{
-    background-color: rgb(113, 179, 113);
-
-}
+.container{
+    flex-direction:column;
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  .signinbox{
+      justify-content: center;
+      display: flex;
+      align-self: center;
+      border:1px solid grey;
+      width: 500px;
+      height: 300px;
+      padding: 5 px;
+      position: relative; 
+      text-align:left;
+      margin: 30 px;
+    }
+    
+    .logo{
+      align-self: center;
+      border: 0px;
+      padding:0 px;
+      width: 200px;
+      height: 40px;
+      float:center;
+    }
+  
+    
+    
+  .abutton{
+      justify-content: center;
+      align-self: center;
+      background-color: light gray;
+      border: none;
+      color: black;
+      padding: 1px 6px;
+      float: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 282px;
+      height: 27px
+    }
+  
+    .button {
+      justify-content: center;
+      background-color: Orange;
+      border: none;
+      color: black;
+      padding: 1px 6px;
+      float: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 450px;
+      height: 27px
+    }
+    
+    .newuser{
+      justify-content: center;
+      background-color: grey;
+      border: none;
+      color: black;
+      padding: 1px 6px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 282px;
+      height: 27px
+    }
+    
+  
+     .links {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: center;
+          background-color: white;
+          align-self: center;
+          color: blue;
+          height: 13px;
+          width: 150px;
+          font: 12px;
+        }
+  
+  .links > div {
+    background-color: white;
+    justify-conent:center;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 15px;
+  }
+  
+    b{
+      text-align: center;
+      color: blue;
+    }
+  
+  .right{
+    float: right;
+  }
